@@ -27,7 +27,7 @@ from django.urls import path, include
 
 from posts.views import (PostListView, PostDetailView, PostDeleteView,PostCreateView,PostUpdateView, like)
 
-
+#ffff
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
